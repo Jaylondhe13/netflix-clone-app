@@ -1,46 +1,112 @@
-# Getting Started with Create React App and Redux
+# project-documentation
+<p align="center">
+  <a href="https://netflix-clone-e3c90.web.app/" rel="noopener">
+ <img  width = 40% height = 40% src="https://user-images.githubusercontent.com/77278361/234648198-202c403a-4fd8-478a-bffd-908b068c908b.png" alt="netflix logo"></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<h3 align="center">Netflix Clone App</h3>
+<p align="center">This project is a Netflix clone app that allows users to browse and filter movies and TV shows based on different categories such as genre, popularity, and ratings. The app is built using ReactJS and uses the TMDB API to fetch data for movies and TV shows..
+    <br> 
+</p>
+<hr>
 
-## Available Scripts
+## 📝 Table of Contents
 
-In the project directory, you can run:
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧐 About <a name = "about"></a>
+<p>
+  This app is designed to mimic the basic functionality of Netflix. It includes features like browsing movies and TV shows, filtering content by categories, searching for specific titles, and playing trailers. This app uses the TMDB (The Movie Database) API to fetch movie and TV show data.
+</p>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-### `npm run build`
+  To get started with the Netflix clone app, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local machine.
+2. Open the project directory in a code editor.
+3. Install the necessary dependencies using the command npm install.
+4. Run the app using the command npm start.
+5. Open localhost:3000 in your browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
+Before installing the software, you need to have the following:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - Node.js installed on your system
+  - A TMDB API key. You can obtain one by signing up at https://www.themoviedb.org/
+  - Here's an example of how you can use TMDB API in your project:
+     1. Sign up for a free account on TMDB's website to get an API key.
+     2. Import the axios library in your project: e.g const axios = require('axios');
+     3. Make a GET request to the TMDB API using your API key: 
+    
+  
 
-### `npm run eject`
+### Installing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+1. Clone this repository.
+2. Install the dependencies using npm install.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployment
+The app can be deployed to Firebase hosting service. To deploy the app, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+1. Install Firebase CLI using npm install -g firebase-tools.
+2. Run firebase login to log in to your Firebase account.
+3. Create a new project in Firebase console.
+4. Initialize your Firebase project using firebase init.
+5. Choose hosting as the Firebase feature and follow the prompts.
+6. Build the app using npm run build.
+7. Deploy the app using firebase deploy.
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎈 Usage <a name="usage"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Once the app is up and running, users can browse and filter movies and TV shows by different categories. Users can also click on a movie or TV show to view its details such as description, cast, and crew.
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- ReactJS
+- TMDB API
+- Axios
+- React Router
+
+
+## TODO
+- Implement user authentication and allow users to create watchlists.
+- Add search functionality to search for movies and TV shows by keyword.
+- Improve the user interface and add more features.
+
+
+## Contributing
+Contributions to the project are welcome. To contribute, please fork the repository and create a pull request.
+
+## ✍️ Authors <a name = "authors"></a>
+- Jay Satish Londhe.
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+- [TMDB](https://www.themoviedb.org/) - for providing the API used in this project.
+- Thanks to my mentor for their guidance and support during the development of this project.
+- Thanks to [Skill-lync](https://skill-lync.com/) who gave me this opportunity.
+
+
+
+
+[Click here to view App](https://netflix-clone-e3c90.web.app/)
+
+
+
